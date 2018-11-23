@@ -29,7 +29,8 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		log.Println(u, p)
+		log.Println("username:", u)
+		log.Println("password:", p)
 	default:
 		log.Println(usage)
 	}
